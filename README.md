@@ -5,7 +5,7 @@ Convert HL7 message to xml format
 
 Clone the project:
 
-			$ git clone https://
+			$ git clone https://github.com/nezt/hl72xml.git
 			
 Into hl72xml:
 
