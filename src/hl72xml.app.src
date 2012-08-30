@@ -1,0 +1,12 @@
+{application, hl72xml,
+ [
+  {description, "hl7 to xml"},
+  {vsn, "1.0"},
+  {registered, [hl72xml_app, hl72xml_sup, hl72xml_parser, hl72xml_xml]},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { hl72xml_app, []}},
+  {env, [{socket_port, 7070}]}
+ ]}.
