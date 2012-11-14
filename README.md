@@ -1,12 +1,14 @@
 Hl72xml
 =======
 
-*Introduction
+Introduction
+====
 
 Health Level Seven International (HL7) is the global authority on standards 
 for interoperability of health information technology .
 
-	*General Message Format
+General Message Format
+====
 
     * All HL7 messages begin with \x0B (ASCII 11) and terminate with
       \x1C (ASCII 28) and \x0D (ASCII 13).
@@ -16,7 +18,8 @@ for interoperability of health information technology .
     * Field sub-components are separated by “&” (\x26, ASCII 38).
     * Repeated fields are separated by “~” (\x7E, ASCII 126).
 	
-* Message HL7 example
+Message HL7 example
+=====
 
  MSH|^~\&|GHH LAB|ELAB-3|GHH OE|BLDG4|200202150930||ORU^R01|CNTRL-3456|P|2.4<cr>
  PID|||555-44-4444||EVERYWOMAN^EVE^E^^^^L|JONES|19620320|F|||153 FERNWOOD DR.^
