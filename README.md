@@ -1,7 +1,7 @@
 Hl72xml
 =======
 
-	*Introduction
+*Introduction
 
 Health Level Seven International (HL7) is the global authority on standards 
 for interoperability of health information technology .
@@ -16,7 +16,7 @@ for interoperability of health information technology .
     * Field sub-components are separated by “&” (\x26, ASCII 38).
     * Repeated fields are separated by “~” (\x7E, ASCII 126).
 	
-	* Message HL7 example
+* Message HL7 example
 
  MSH|^~\&|GHH LAB|ELAB-3|GHH OE|BLDG4|200202150930||ORU^R01|CNTRL-3456|P|2.4<cr>
  PID|||555-44-4444||EVERYWOMAN^EVE^E^^^^L|JONES|19620320|F|||153 FERNWOOD DR.^
