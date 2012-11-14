@@ -30,7 +30,8 @@ Message HL7 example
 
 with this proyect you can convert HL7 message to xml format
 
-	* How to start
+How to start
+====
 
 Clone the project:
 
